@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Andada+Pro:wght@500&family=Archivo:ital,wght@1,600&family=Inter:wght@300;400;500&family=Poppins:ital,wght@0,500;1,400&family=Roboto+Condensed:ital,wght@1,700&family=Roboto+Serif:opsz,wght@8..144,800&family=Roboto:ital,wght@0,700;0,900;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.tittle h1{
+    font-size: 60px;
+    text-align: center;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 80.8%;
+    text-align: justify;
+    left: 50.8%;
+}
+
+.my-profile img{
+    border-radius: 50%;
+    height: 479px;
+    width: 479px;
+    margin-top: 20px;
+    object-fit: cover;
+}
+
+.page{
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    left: 24%;
+}
+
+.page p{
+    text-align: center;
+    line-height: 40px;
+    width: 40%;
+    margin-top: 140px;
+    font-size: 21px;
+    font-family: Roboto;
+    position: relative;
+    left: 24%;
+}
+
+
+.container{
+    background-color: #fff;
+    width: 100%;
+    height: 11vh;
+    box-shadow: 5px 0 5px #000;
+    margin-top: 40px;
+}
+
+footer{
+    float: left;
+    margin-left: 25px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: Roboto;
+}
+
+.up span{
+    color: gray;
+    font-size: 18px;
+    font-family: Gray;
+}
+
+.up a{
+    color: #6D6D6D;
+    font-size: 18px;
+    font-family: Roboto;
+    float: right;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+
+@media(max-width: 1700px){
+    .tittle h1{
+        font-size: 43px;
+        text-align: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        position: absolute;
+        top: 355px;
+        text-align: justify;
+        text-align: center;
+        margin-left: -66px;
+    }
+
+    .my-profile img{
+        border-radius: 999999px;
+        height: 330px;
+        width: 330px;
+        margin-top: 20px;
+        object-fit: cover;
+        overflow: hidden;
+    }
+
+    .page p{
+        text-align: center;
+        width: 90%;
+        font-size: 21px;
+        margin-top: 69px;
+        font-family: Roboto;
+        position: relative;
+        left: 10px;
+        overflow: hidden;
+    }
+   
+    .up{
+        overflow: hidden;
+        display: none;
+    }
+
+
+}
+
+
+#preloader{
+    width: 100%;
+    height: 110%;
+    position: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    display: none;
+    z-index: 99999;
+    animation: -0.5s linear 1s infinite alternate; 
+    overflow: hidden;
+}
+
+.preloader-logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.preloader-logo img{
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+}
+
+@keyframes preloader{
+    
+}
